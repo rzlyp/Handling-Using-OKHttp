@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkOrange"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.rizal.perpusonline.LoginActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/book"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="roboto"
+        android:textColor="@color/white"
+        android:textSize="14pt"
+        android:text="ONLINE LIBRARY"
+        android:textStyle="bold"
+        />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Email....."
+            android:backgroundTint="@color/white"
+            android:shadowColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:fontFamily="roboto"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Password...."
+            android:backgroundTint="@color/white"
+            android:shadowColor="@color/white"
+            android:inputType="textEmailAddress"
+            android:fontFamily="roboto"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </android.support.design.widget.TextInputLayout>
+<Button
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBlue"
+    android:fontFamily="roboto"
+    android:text="LOGIN"
+    />
+<TextView
+    android:id="@+id/register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20px"
+    android:layout_gravity="right"
+    android:text="Register ?"
+    android:textColor="@color/white"
+    android:fontFamily="roboto"
+    android:textSize="9pt"
+    />
+
+</LinearLayout>
